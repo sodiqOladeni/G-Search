@@ -1,0 +1,65 @@
+[versions]
+agp = "8.7.2"
+kotlin = "1.9.24"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.9.3"
+composeBom = "2024.10.01"
+hiltVersion = "2.51.1"
+navVersion = "2.8.3"
+retrofitVersion = "2.11.0"
+coroutinesVersion = "1.9.0"
+pagingVersion = "3.3.2"
+lifecycleVersion = "2.8.7"
+splashcSreenVersion = "1.0.1"
+coilVersion = "3.0.0-rc02"
+okhttpVersion = "4.12.0"
+composeMaterial = "1.7.5"
+hiltNavigationVersion = "1.2.0"
+okhttp3MockServerVersion = "4.12.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-material-legacy = { group = "androidx.compose.material", name = "material", version.ref = "composeMaterial" }
+
+dagger-hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hiltVersion" }
+dagger-hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "hiltVersion" }
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navVersion"}
+retrofit = {group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion"}
+retrofit-convert = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofitVersion"}
+kotlinx-coroutine = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutinesVersion"}
+paging-runtime = { group = "androidx.paging", name = "paging-runtime", version.ref = "pagingVersion" }
+paging-compose = {group = "androidx.paging", name = "paging-compose", version.ref = "pagingVersion"}
+viewmodel-ktx = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleVersion"}
+viewmodel-compose = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycleVersion"}
+lifecycle-livedata= {group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleVersion"}
+core-splash-screen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashcSreenVersion"}
+coil-compose = {group = "io.coil-kt.coil3", name = "coil-compose", version.ref = "coilVersion"}
+androidx-material-icons-core = { group = "androidx.compose.material", name = "material-icons-core" }
+androidx-material-extended-icons = { group = "androidx.compose.material", name = "material-icons-extended" }
+okhttp-bom = { group = "com.squareup.okhttp3", name = "okhttp-bom", version.ref = "okhttpVersion"}
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp"}
+okhttp-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor"}
+hilt-navigation = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigationVersion"}
+okhttp3-mock-server = {group = "com.squareup.okhttp3", name = "mockwebserver", version.ref = "okhttp3MockServerVersion"}
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">G-Search</string>
+    <string name="home">Home</string>
+    <string name="repositories">Repositories</string>
+    <string name="users">Users</string>
+    <string name="search_for_repositories">Search for repositories…</string>
+    <string name="search">Search</string>
+    <string name="search_github_for_repo_message">Search Github for repositories, issues and pull requests!</string>
+    <string name="search_for_users">Search for users…</string>
+    <string name="search_github_for_users_message">Search Github for users…</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="no_user_repo_message">This user  doesn’t have repositories yet, come back later :-)</string>
+    <string name="publicc">Public</string>
+    <string name="no_user_message">We’ve searched the ends of the earth and we’ve not found this user, please try again</string>
+    <string name="no_repo_message">We’ve searched the ends of the earth, repository not found, please try again</string>
+    <string name="random_bio">This is a random bio, which will be replace with actual content</string>
+    <string name="random_location">Most likely somewhere walking on the surface of the earth, but it can also be under!</string>
+    <string name="random_email">no-email@email.com</string>
+    <string name="no_name">No Name</string>
+    <string name="no_desc_for_repo">No description for repository provided</string>
+    <string name="no_location">No Location</string>
+    <string name="no_blog">No Blog</string>
+
+</resources>
